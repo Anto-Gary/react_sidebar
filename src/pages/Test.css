@@ -153,3 +153,7 @@ body{
     border: 10px solid blue;
 }
 
+.home-active{
+    margin-left: 250px;
+    transition: 350ms;
+}
