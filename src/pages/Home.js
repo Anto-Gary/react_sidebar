@@ -1,6 +1,13 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {SidebarContext} from '../contexts/SidebarContext';
 
-function Home() {
+function Home() { 
+
+	const {sidebar, showSidebar} = useContext(SidebarContext)
+
+
+
+	console.log(sidebar,)
   return (
     <div className='home'>
       <h1>Home</h1>
