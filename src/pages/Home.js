@@ -9,7 +9,7 @@ function Home() {
 
 	console.log(sidebar,)
   return (
-    <div className='home'>
+    <div className={sidebar ? 'home home-active' : 'home'}>
       <h1>Home</h1>
     </div>
   );
